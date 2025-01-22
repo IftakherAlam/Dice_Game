@@ -1,7 +1,7 @@
 # Non-Transitive Dice Game
 
 ## Overview
-This is a command-line implementation of a **generalized non-transitive dice game** with provable fair random generation. The game allows arbitrary dice configurations and ensures fairness through cryptographic techniques. The project is implemented in **C# (or the chosen language)** and follows object-oriented design principles with multiple classes handling different responsibilities.
+This is a command-line implementation of a **generalized non-transitive dice game** with provable fair random generation. The game allows arbitrary dice configurations and ensures fairness through cryptographic techniques. The project is implemented in **C# and follows object-oriented design principles with multiple classes handling different responsibilities.
 
 ## Features
 - **Supports Arbitrary Dice**: The game accepts **3 or more** dice with arbitrary values as command-line arguments.
@@ -17,13 +17,13 @@ This is a command-line implementation of a **generalized non-transitive dice gam
 - **Help Option**: Displays an **ASCII table of probabilities** for each dice pair.
 
 ## Requirements
-- **.NET 6+ (if using C#)** or **Node.js/Python/Ruby/etc.**
+- **.NET 8+ (if using C#)**
 - **HMAC-SHA3 support** (via built-in or third-party libraries)
 
 ## Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/non-transitive-dice-game.git
+   git clone https://github.com/IftakherAlam/Dice_Game.git
    cd non-transitive-dice-game
    ```
 2. Build the project (for C#):
