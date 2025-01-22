@@ -1,0 +1,41 @@
+# Build files
+bin/
+obj/
+
+# Visual Studio files
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.ide
+
+# Rider files
+.idea/
+*.iml
+
+# NuGet Packages
+*.nupkg
+packages/
+.nuget/
+
+# Build logs
+*.log
+logs/
+
+# VS Code settings
+.vscode/
+
+# Temporary files
+*.tmp
+*.cache
+*.config
+*.bak
+
+# Publish artifacts
+.publish/
+out/
+
+# Dotnet-specific
+project.lock.json
+project.assets.json
